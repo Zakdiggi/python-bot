@@ -49,7 +49,7 @@ def Tele(ccx):
 			'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36',
 	}
 
-	data = f'type=card&card[number]={n}&card[cvc]={cvc}&card[exp_month]={mm}&card[exp_year]={yy}&key=pk_live_5104JjP4n78snmsaLtJ2RQ5oRxjyiNAFfpzjFxvjmFebTiRxyOrTpGpnJ8HNkaI6B40RsOFWRqlw2sF2kEaXr61lC00chJzCgzQ'
+	data = f'type=card&card[number]={n}&card[cvc]={cvc}&card[exp_month]={mm}&card[exp_year]={yy}&key=pk_live_51MWmbSICV1I3jxabAyBu86sWMgPP177PcGAwChat4WAc5SPafgMTD1biYFDqZHGUgHirfVUP3k6ypFa2uFzRl7jj00D3nJcKy6'
 	r1 = requests.post('https://api.stripe.com/v1/payment_methods', headers=headers, data=data)
 
 	pm = r1.json()['id']
