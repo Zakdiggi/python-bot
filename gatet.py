@@ -8,20 +8,8 @@ def Tele(ccx):
 	cvc = ccx.split("|")[3]
 	if "20" in yy:#Mo3gza
 		yy = yy.split("20")[1]
-
-	import requests
 	r = requests.session()
-	username = "gloosmoke28-rotate"
-	password = "gloosmoke"
-	proxy = "p.webshare.io:80"
-	proxy_auth = "{}:{}@{}".format(username, password, proxy)
-	proxies = {
-			"http":"http://{}".format(proxy_auth)
-	}
-	urlToGet = "http://api.ipify.org/"
-	r = requests.get(urlToGet , proxies=proxies)
-	print("IP Address:\n{}".format(r.text))
-
+	
 	import requests
 	username = "gloosmoke28-rotate"
 	password = "gloosmoke"
