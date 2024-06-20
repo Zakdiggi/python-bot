@@ -12,25 +12,25 @@ def Tele(ccx):
 
 	import requests
 	username = "zfprzjzx"
-	password = "YNASnIsk57rt9BW4"
+	password = "YNASnIsk57rt9BW4_session-F4uRQk6Z"
 	proxy = "209.38.175.10:31112"
 	proxy_auth = "{}:{}@{}".format(username, password, proxy)
 	proxies = {
 			"http":"http://{}".format(proxy_auth)
 	}
-	urlToGet = "https://ipv4.icanhazip.com/"
+	urlToGet = "http://api.ipify.org/"
 	r = requests.get(urlToGet , proxies=proxies)
 	print("IP Address: {}".format(r.text))
 	
 	import requests
 	username = "zfprzjzx"
-	password = "YNASnIsk57rt9BW4"
+	password = "YNASnIsk57rt9BW4_session-F4uRQk6Z"
 	proxy = "209.38.175.10:31112"
 	proxy_auth = "{}:{}@{}".format(username, password, proxy)
 	proxies = {
 			"http":"http://{}".format(proxy_auth)
 	}
-	urlToGet = "https://ipv4.icanhazip.com/"
+	urlToGet = "http://api.ipify.org/"
 	r = requests.get(urlToGet , proxies=proxies)
 
 	headers = {
@@ -56,13 +56,13 @@ def Tele(ccx):
 
 	import requests
 	username = "zfprzjzx"
-	password = "YNASnIsk57rt9BW4"
+	password = "YNASnIsk57rt9BW4_session-F4uRQk6Z"
 	proxy = "209.38.175.10:31112"
 	proxy_auth = "{}:{}@{}".format(username, password, proxy)
 	proxies = {
 	    "http":"http://{}".format(proxy_auth)
 	}
-	urlToGet = "https://ipv4.icanhazip.com/"
+	urlToGet = "http://api.ipify.org/"
 	r = requests.get(urlToGet , proxies=proxies)
 
 	cookies = {
