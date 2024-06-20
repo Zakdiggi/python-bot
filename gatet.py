@@ -18,9 +18,9 @@ def Tele(ccx):
 	proxies = {
 			"http":"http://{}".format(proxy_auth)
 	}
-	urlToGet = "http://api.ipify.org/"
+	urlToGet = "http://ip-api.com/json"
 	r = requests.get(urlToGet , proxies=proxies)
-	print("IP Address: {}".format(r.text))
+	print("IP Address:\n{}".format(r.text))
 	
 	import requests
 	username = "zfprzjzx"
@@ -30,7 +30,7 @@ def Tele(ccx):
 	proxies = {
 			"http":"http://{}".format(proxy_auth)
 	}
-	urlToGet = "http://api.ipify.org/"
+	urlToGet = "http://ip-api.com/json"
 	r = requests.get(urlToGet , proxies=proxies)
 
 	headers = {
@@ -62,7 +62,7 @@ def Tele(ccx):
 	proxies = {
 	    "http":"http://{}".format(proxy_auth)
 	}
-	urlToGet = "http://api.ipify.org/"
+	urlToGet = "http://ip-api.com/json"
 	r = requests.get(urlToGet , proxies=proxies)
 
 	cookies = {
