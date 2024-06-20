@@ -12,7 +12,7 @@ def Tele(ccx):
 
 	import requests
 	username = "zfprzjzx"
-	password = "YNASnIsk57rt9BW4_session-1pegeMF9"
+	password = "YNASnIsk57rt9BW4"
 	proxy = "209.38.175.10:31112"
 	proxy_auth = "{}:{}@{}".format(username, password, proxy)
 	proxies = {
@@ -24,7 +24,7 @@ def Tele(ccx):
 	
 	import requests
 	username = "zfprzjzx"
-	password = "YNASnIsk57rt9BW4_session-1pegeMF9"
+	password = "YNASnIsk57rt9BW4"
 	proxy = "209.38.175.10:31112"
 	proxy_auth = "{}:{}@{}".format(username, password, proxy)
 	proxies = {
@@ -56,7 +56,7 @@ def Tele(ccx):
 
 	import requests
 	username = "zfprzjzx"
-	password = "YNASnIsk57rt9BW4_session-1pegeMF9"
+	password = "YNASnIsk57rt9BW4"
 	proxy = "209.38.175.10:31112"
 	proxy_auth = "{}:{}@{}".format(username, password, proxy)
 	proxies = {
