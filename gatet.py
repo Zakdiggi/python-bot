@@ -11,9 +11,9 @@ def Tele(ccx):
 	r = requests.session()
 
 	import requests
-	username = "gloosmoke29-rotate"
-	password = "gloosmoke"
-	proxy = "p.webshare.io:80"
+	username = "zfprzjzx"
+	password = "YNASnIsk57rt9BW4"
+	proxy = "proxy.proxy-cheap.com:31112"
 	proxy_auth = "{}:{}@{}".format(username, password, proxy)
 	proxies = {
 			"http":"http://{}".format(proxy_auth)
@@ -23,9 +23,9 @@ def Tele(ccx):
 	print("IP Address: {}".format(r.text))
 	
 	import requests
-	username = "gloosmoke29-rotate"
-	password = "gloosmoke"
-	proxy = "p.webshare.io:80"
+	username = "zfprzjzx"
+	password = "YNASnIsk57rt9BW4"
+	proxy = "proxy.proxy-cheap.com:31112"
 	proxy_auth = "{}:{}@{}".format(username, password, proxy)
 	proxies = {
 			"http":"http://{}".format(proxy_auth)
@@ -55,9 +55,9 @@ def Tele(ccx):
 	pm = r1.json()['id']
 
 	import requests
-	username = "gloosmoke29-rotate"
-	password = "gloosmoke"
-	proxy = "p.webshare.io:80"
+	username = "zfprzjzx"
+	password = "YNASnIsk57rt9BW4"
+	proxy = "proxy.proxy-cheap.com:31112"
 	proxy_auth = "{}:{}@{}".format(username, password, proxy)
 	proxies = {
 	    "http":"http://{}".format(proxy_auth)
