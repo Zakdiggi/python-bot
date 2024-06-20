@@ -11,7 +11,7 @@ def Tele(ccx):
 	r = requests.session()
 
 	import requests
-	username = "gloosmoke29-rotate"
+	username = "gloosmoke26-rotate"
 	password = "gloosmoke"
 	proxy = "p.webshare.io:80"
 	proxy_auth = "{}:{}@{}".format(username, password, proxy)
@@ -23,7 +23,7 @@ def Tele(ccx):
 	print("IP Address: {}".format(r.text))
 	
 	import requests
-	username = "gloosmoke29-rotate"
+	username = "gloosmoke26-rotate"
 	password = "gloosmoke"
 	proxy = "p.webshare.io:80"
 	proxy_auth = "{}:{}@{}".format(username, password, proxy)
@@ -55,7 +55,7 @@ def Tele(ccx):
 	pm = r1.json()['id']
 
 	import requests
-	username = "gloosmoke29-rotate"
+	username = "gloosmoke26-rotate"
 	password = "gloosmoke"
 	proxy = "p.webshare.io:80"
 	proxy_auth = "{}:{}@{}".format(username, password, proxy)
@@ -103,7 +103,7 @@ def Tele(ccx):
 	}
 
 	data = {
-			'data': '__fluent_form_embded_post_id=19507&_fluentform_6_fluentformnonce=a53ae97c37&_wp_http_referer=%2Ftuition-payment%2F&names%5Bfirst_name%5D=Gloo&names%5Blast_name%5D=Smoke&email=gloosmoke99%40gmail.com&input_text=NY&custom-payment-amount=5&payment_method=stripe&__stripe_payment_method_id='+str(pm)+'',
+			'data': '__fluent_form_embded_post_id=19507&_fluentform_6_fluentformnonce=a53ae97c37&_wp_http_referer=%2Ftuition-payment%2F&names%5Bfirst_name%5D=&names%5Blast_name%5D=&email=gloosmoke3434%40gmail.com&input_text=NY&custom-payment-amount=5&payment_method=stripe&__stripe_payment_method_id='+str(pm)+'',
 			'action': 'fluentform_submit',
 			'form_id': '6',
 	}
